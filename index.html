@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Samuel Peter | Full Stack Developer & Designer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #0f0f0f, #1a1a1a, #000000);
+      color: #e5e7eb;
+    }
+
+    h2 {
+      color: #d4af37;
+    }
+
+    .glass {
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(12px);
+      border-radius: 15px;
+      padding: 2rem;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .floating-whatsapp {
+      position: fixed;
+      bottom: 25px;
+      right: 25px;
+      background-color: #25D366;
+      color: white;
+      border-radius: 50%;
+      padding: 15px;
+      z-index: 999;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+    }
+
+    .floating-whatsapp:hover {
+      background-color: #1ebe5b;
+    }
+
+    .gallery img,
+    .project img {
+      width: 100%;
+      height: 200px;
+      object-fit: contain;
+      border-radius: 8px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .gallery img:hover,
+    .project img:hover {
+      transform: scale(1.03);
+      box-shadow: 0 8px 20px rgba(255, 255, 255, 0.15);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero -->
+  <section class="text-center py-12">
+    <img src="profile.jpg" alt="Samuel Peter" class="w-36 h-36 mx-auto rounded-full mb-4 object-cover border-4 border-yellow-500">
+    <h1 class="text-4xl font-bold mb-2 text-white">
+      <a href="https://www.instagram.com/samyglobaltech/" target="_blank" class="hover:text-yellow-300 transition">
+        Samuel Peter
+      </a>
+    </h1>
+    <p class="text-xl text-yellow-300">Full Stack Developer • Graphic Designer • Digital Strategist</p>
+    <div class="mt-4 flex justify-center space-x-4 text-2xl text-gray-400">
+      <a href="https://www.linkedin.com/in/samuelpeternd/" target="_blank"><i class="fab fa-linkedin hover:text-blue-500"></i></a>
+      <a href="https://x.com/samuelpeternd" target="_blank"><i class="fab fa-twitter hover:text-blue-400"></i></a>
+      <a href="https://www.instagram.com/samyglobaltech/" target="_blank"><i class="fab fa-instagram hover:text-pink-400"></i></a>
+      <a href="https://www.facebook.com/sammyglobaltech" target="_blank"><i class="fab fa-facebook hover:text-blue-600"></i></a>
+      <a href="https://wa.link/2uibhx" target="_blank"><i class="fab fa-whatsapp hover:text-green-400"></i></a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="px-6 py-10">
+    <div class="glass max-w-5xl mx-auto">
+      <h2 class="text-3xl font-bold mb-4">About Me</h2>
+      <p class="text-lg leading-relaxed">
+        A highly motivated <strong>Full Stack Developer</strong> with expertise in
+        <strong>PHP, JavaScript, TypeScript, Python, Next.js, Tailwind CSS, Node.js, MySQL</strong> and more.
+        Passionate about building scalable apps, intuitive UIs, and secure backend systems.
+        <br><br>
+        I'm also a seasoned <strong>Graphic Designer</strong> and <strong>Social Media Strategist</strong>,
+        skilled at creating branded content that connects and converts.
+        <br><br>
+        As a <strong>Social Media Manager</strong>, I specialize in crafting strategic content that drives engagement, builds brand loyalty, and increases reach.
+        From content planning and calendar creation to post design, hashtag optimization, and growth strategy — I help individuals, startups, and ministries build a powerful online presence across platforms like Instagram, Facebook, and Pinterest.
+        My approach blends creativity with analytics to consistently grow follower base and conversion rates.
+        <br><br>
+        I bring a creative mindset, technical expertise, and business awareness to every project.
+        Looking to collaborate with innovative companies or visionary entrepreneurs.
+      </p>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="px-6 py-10">
+    <div class="glass max-w-6xl mx-auto">
+      <h2 class="text-3xl font-bold mb-6">Projects</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 project">
+        <a href="https://ccraymondglobalmin.com" target="_blank">
+          <img src="project1.jpg" alt="C.C. Raymond">
+          <p class="mt-2 text-center text-gray-200">C.C. Raymond Global Ministry</p>
+        </a>
+        <a href="https://securepaytopup.com" target="_blank">
+          <img src="project2.jpg" alt="SecurePayTopup">
+          <p class="mt-2 text-center text-gray-200">SecurePayTopup</p>
+        </a>
+        <a href="https://vtu.securepaytopup.com/mobile/login/" target="_blank">
+          <img src="project3.jpg" alt="SecurePayTopup VTU Login Page">
+          <p class="mt-2 text-center text-gray-200">SecurePayTopup VTU Login Page</p>
+        </a>
+        <a href="https://pastorpeaceemmanuelministry.com.ng/wp/tech-course/" target="_blank">
+          <img src="project4.jpg" alt="Pastor Peace">
+          <p class="mt-2 text-center text-gray-200">Pastor Peace E-book & Course Website</p>
+        </a>
+        <a href="https://www.legithotspot.com" target="_blank">
+          <img src="project5.jpg" alt="Legit Hotspot News Blog">
+          <p class="mt-2 text-center text-gray-200">Legit Hotspot</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Flyers -->
+  <section class="px-6 py-10">
+    <div class="glass max-w-6xl mx-auto">
+      <h2 class="text-3xl font-bold mb-6">Flyer Designs</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 gallery">
+        <a href="https://www.instagram.com/p/DKxesn8oAZy/" target="_blank"><img src="flyer1.jpg" alt="Flyer 1"></a>
+        <a href="https://www.instagram.com/p/DJuZ-GcI6kn/" target="_blank"><img src="flyer2.jpg" alt="Flyer 2"></a>
+        <a href="https://www.pinterest.com/pin/879820477209186197/" target="_blank"><img src="flyer3.jpg" alt="Flyer 3"></a>
+        <a href="https://www.pinterest.com/pin/879820477188673693/" target="_blank"><img src="flyer4.jpg" alt="Flyer 4"></a>
+        <a href="https://www.instagram.com/p/DC7p9DlIiQX/" target="_blank"><img src="flyer5.jpg" alt="Flyer 5"></a>
+        <a href="https://www.instagram.com/p/Csrh0uqrZca/" target="_blank"><img src="flyer6.jpg" alt="Flyer 6"></a>
+        <a href="https://www.instagram.com/p/CzjgzZSNQKx/" target="_blank"><img src="flyer7.jpg" alt="Flyer 7"></a>
+        <a href="https://www.pinterest.com/pin/879820477196287065/" target="_blank"><img src="flyer8.jpg" alt="Flyer 8"></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Logos -->
+  <section class="px-6 py-10">
+    <div class="glass max-w-6xl mx-auto">
+      <h2 class="text-3xl font-bold mb-6">Logo Designs</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 gallery">
+        <img src="logo1.jpg" alt="Logo 1">
+        <img src="logo2.jpg" alt="Logo 2">
+        <img src="logo3.jpg" alt="Logo 3">
+        <img src="logo4.jpg" alt="Logo 4">
+        <img src="logo5.jpg" alt="Logo 5">
+        <img src="logo6.jpg" alt="Logo 6">
+        <img src="logo7.jpg" alt="Logo 7">
+        <img src="logo8.jpg" alt="Logo 8">
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="px-6 py-10 text-center">
+    <div class="glass max-w-3xl mx-auto">
+      <h2 class="text-3xl font-bold mb-4">Let’s Work Together</h2>
+      <p class="text-lg mb-4">Available for freelance, team projects, and full-time offers.</p>
+      <a href="https://wa.link/2uibhx" target="_blank" class="inline-block px-6 py-3 bg-green-500 text-white rounded hover:bg-green-600">
+        <i class="fab fa-whatsapp mr-2"></i> Chat on WhatsApp
+      </a>
+    </div>
+  </section>
+
+  <!-- Floating WhatsApp Icon -->
+  <a href="https://wa.link/2uibhx" class="floating-whatsapp" target="_blank">
+    <i class="fab fa-whatsapp fa-2x"></i>
+  </a>
+
+  <!-- Footer -->
+  <footer class="text-center text-gray-500 text-sm py-6">
+    © 2025 <a href="https://www.instagram.com/samyglobaltech/" target="_blank" class="hover:text-yellow-300">Samuel Peter</a> • ALL RIGHTS RESERVED
+  </footer>
+
+</body>
+</html>
